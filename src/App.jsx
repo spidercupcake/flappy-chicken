@@ -1,8 +1,9 @@
 import React from "react";
+import InfiniteSky from "./components/InfiniteSky";
 export default function App() {
   return (
-    <main className="text">
-      <h1>JUMP!</h1>
+    <main>
+      <InfiniteSky />
     </main>
   );
 }
